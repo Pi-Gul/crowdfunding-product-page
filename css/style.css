@@ -1,7 +1,116 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    background-color: hsl(0, 0%, 90%) !important;
 }
+header {
+    height: 500px;
+    background-image: url('../images/image-hero-mobile.jpg');
+    background-size: cover;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+section {
+    margin-bottom: 30px;
+    background-color: white;
+}
+button {
+    border-radius: 30px !important;
+    border: 0;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(176, 72%, 28%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+/*NAVBAR*/
+
+/*MASTERCRAFT*/
+.master-icon-wrapper {
+    position: relative;
+    top: -30px;
+}
+.button-ribbon {
+    margin-top: 40px;
+}
+.bookmarked {
+    background-color:hsl(0, 0%, 85%);
+    color: black;
+}
+
+/*STATS*/
+.stats-item {
+    margin-bottom: 30px;
+}
+.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.stats-label {
+    margin-bottom: 20px;
+}
+.stats-bar {
+    width: 25%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+.progress {
+    
+}
+.progress-bar {
+    width: 33%;
+}
+
+/*ABOUT*/
+.card {
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.card-top {
+    margin-bottom: 10px;
+}
+h3 {
+    font-weight: bold !important;
+}
+.pledge {
+    color: hsl(176, 50%, 47%);
+}
+.card-text {
+    margin-bottom: 25px;
+}
+.number-left {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+span {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.select-reward {
+    width: 170px;
+    background-color: hsl(176, 50%, 47%);
+}
+
+@media only screen and (min-width: 991px) {
+    .stats-item.mid {
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+    }
+    .card-bottom {
+        align-items: center;
+    }
+    .number-left {
+        margin-bottom: 0;
+    }
+    .select-reward {
+        width: 200px;
+    }
+}
